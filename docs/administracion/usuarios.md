@@ -76,6 +76,15 @@ Si alguien olvidó su contraseña, genérale una nueva:
 
 La persona la cambiará al entrar por primera vez. Cada usuario también puede cambiar su propia contraseña desde [Tu perfil](/guia/primeros-pasos/tu-perfil).
 
+### Si alguien perdió su teléfono
+
+Quien activó la [verificación en dos pasos](/guia/primeros-pasos/verificacion-en-dos-pasos) y perdió su teléfono y sus códigos de recuperación no puede entrar. Quítasela:
+
+1. En la lista, pulsa el icono del escudo tachado (**Quitar la verificación en dos pasos**) de la persona.
+2. Confirma con **Quitar**.
+
+Después entra solo con su contraseña y puede activarla de nuevo desde **Ver perfil**. Hazlo solo cuando estés seguro de que es la propia persona quien lo pide. Solo puedes hacerlo con personas de tu mismo nivel o inferior.
+
 ## Horarios: las mallas de turno
 
 Una **malla de turno** es el horario de trabajo de una persona: a qué hora entra y sale cada día, y sus descansos. **Fuera de su turno, un agente no recibe llamadas**, aunque esté conectado. Además, el **Reporte de sesiones** compara la hora real de entrada y salida con su malla.
