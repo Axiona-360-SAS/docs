@@ -207,11 +207,25 @@ Después de apagarlo, las llamadas que hizo el callback siguen a la vista: en la
 - **Manual**: el agente marca desde su teléfono. El sistema no llama a nadie por su cuenta. Es lo que viene por defecto.
 - **Progresivo**: el sistema marca solo, una llamada por cada agente libre.
 
-{/* INTERNO, no se muestra al cliente. Próximamente: marcador Predictivo (aparece en gris en la lista). */}
+- **Predictivo**: el sistema llama a más clientes que agentes libres, porque no todos contestan, y a quien contesta lo pasa directo a un agente. Se contrata aparte: si tu cuenta no lo tiene, aparece en gris con el aviso «no está contratado en esta cuenta».
+
+### Marcador predictivo
+
+Al elegir **Predictivo** aparece una sección con estos ajustes:
+
+- **Relación máxima**: hasta cuántas llamadas se lanzan por cada agente libre. La relación real se ajusta sola con las contestaciones recientes.
+- **Límite de abandono (%)**: una llamada abandonada es la que contesta y no encuentra agente a tiempo. Si pasan de este porcentaje, el marcador baja a una llamada por agente.
+- **Espera máxima por un agente (s)**: cuánto espera en la línea quien contesta. Si nadie lo atiende en ese tiempo, se le dice el mensaje y se cuelga, y su registro vuelve a la cola sin gastar intento.
+- **Mensaje al colgar una abandonada**: lo que se le dice con voz antes de colgar. Vacío = se cuelga sin decir nada.
+- **Llamadas simultáneas como máximo**: el tope de llamadas a la vez, dentro de lo que tengas contratado.
+
+El agente recibe la llamada **sola, sin pulsar nada**, con la ficha del contacto. Necesita tener el micrófono permitido en el navegador y estar en **Disponible**.
+
+Para ver cómo va, abre la campaña y entra a la pestaña **Saliente**: muestra las llamadas, cuántas contestaron, el abandono y la relación que se está usando.
 
 ### Horario del marcador
 
-Si el marcador es progresivo, aparece **Horario del marcador**: fuera de esa franja no llama, aunque la campaña esté activa. Con el horario detallado por día puedes dar un horario distinto a cada día y a los festivos.
+Si el marcador es progresivo o predictivo, aparece **Horario del marcador**: fuera de esa franja no llama, aunque la campaña esté activa. Con el horario detallado por día puedes dar un horario distinto a cada día y a los festivos.
 
 ### Configuraciones de llamada
 

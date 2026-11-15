@@ -22,7 +22,6 @@ que toca. Cuando algo se construya, se documenta en su página y se borra de aqu
 
 ## Campañas y salidas
 
-- **Marcador predictivo**. Hoy las campañas salientes marcan en modo **manual** o **progresivo**.
 - **Marcador robótico**: llamadas masivas con un mensaje grabado, sin agentes.
 - **SMS saliente** como caja del lienzo. Mientras tanto, si tu empresa tiene un proveedor de SMS configurado, puedes enviar SMS desde el IVR y desde los bots.
 - **Tareas de backoffice**: trabajo que no es una llamada ni un chat.
